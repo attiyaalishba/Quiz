@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:Tool="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#7D6F95"
+    android:padding="24dp"
+    Tool:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Quiz Timer App"
+android:textSize="22dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_marginBottom="49dp">
+
+    </TextView>
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/img"
+        android:layout_marginBottom="30dp"/>
+
+    <EditText
+        android:id="@+id/emailInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Your Email"
+        android:background="@drawable/input_bg"
+        android:padding="12dp"
+        android:textColor="#000"
+        android:textColorHint="@color/black"
+        android:layout_marginBottom="20dp"/>
+
+    <Button
+        android:id="@+id/btnContinue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CONTINUE"
+        android:textColor="#fff"
+        android:background="@drawable/button_red"/>
+</LinearLayout>
